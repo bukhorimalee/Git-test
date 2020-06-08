@@ -59,5 +59,5 @@ git push -u origin master `ส่งไฟล์`
 - git checkout <branch name, commot id>  `ย้ายการทำงานไปที่ Branch หรือ commit id ที่ระบุ`
 - git checkout -b test `สร้าง branch ชื่อ test และทำการสลับการทำงานมาที่ branch นี้ ก็ือ test นั้นเอง`
 - git checkout <branch name> <file name>    `เลือกแค่บางไฟล์จาก Branch อื่น เข้ามา Merge กับ Working Directory ที่กำลังทำการ`
-- git push --set-upstream origin develop `ขึ้น Branch บนฐ้านข้อมูล
+- git push --set-upstream origin develop `git ขึ้น Branch บนฐ้านข้อมูล
 - git push -u origin develop `ขึ้น ไฟล์ Branch Develop บนฐ้านข้อมูล

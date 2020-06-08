@@ -61,3 +61,4 @@ git push -u origin master `ส่งไฟล์`
 - git checkout <branch name> <file name>    `เลือกแค่บางไฟล์จาก Branch อื่น เข้ามา Merge กับ Working Directory ที่กำลังทำการ`
 - git push --set-upstream origin develop `ขึ้น Branch บนฐ้านข้อมูล
 - git push -u origin develop `ขึ้น ไฟล์ Branch Develop บนฐ้านข้อมูล
+## Git Reset มี3แบบ

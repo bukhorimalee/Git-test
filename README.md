@@ -44,4 +44,4 @@ When `x = 3`, inline code ก็คิอ แทืก < code > ของ html�
 - git push หากต้องการเอาขึ้น remote repro
 - git pull ดึงข้อม฿ลจาก remote repro, dowload file
 ![content](https://3.bp.blogspot.com/-Wdqrzw1boBw/WbbHN3XFETI/AAAAAAAACV4/2r6we5RxnIMzXavPDr3FZvbM1sgZUrdBQCLcBGAs/s1600/git_138.jpg)
-![git graph master](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTNLeFI8crFRcYUvqT47I-ky1yn0dY5xSvE30Bwe8XAkZ_S0Gdn&usqp=CAU)# git-test
+![git graph master](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTNLeFI8crFRcYUvqT47I-ky1yn0dY5xSvE30Bwe8XAkZ_S0Gdn&usqp=CAU)# การแตก Git

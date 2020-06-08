@@ -45,3 +45,16 @@ When `x = 3`, inline code ก็คิอ แทืก < code > ของ html�
 - git pull ดึงข้อม฿ลจาก remote repro, dowload file
 ![content](https://3.bp.blogspot.com/-Wdqrzw1boBw/WbbHN3XFETI/AAAAAAAACV4/2r6we5RxnIMzXavPDr3FZvbM1sgZUrdBQCLcBGAs/s1600/git_138.jpg)
 ![git graph master](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTNLeFI8crFRcYUvqT47I-ky1yn0dY5xSvE30Bwe8XAkZ_S0Gdn&usqp=CAU)# การแตก Respository
+## Git
+- git add .
+git commit -m "first commit"
+git push -u origin master `ส่งไฟล์`
+- git restore . `ดึงไฟล์กลับมา`
+## Git Branch : เพิ่ม ลบ แสดงกิ่งของ Repository
+- git branch
+- git branch --all          `เช็ค กิ่ง repository`
+- git branch develop        `สร้าง branch ชื่อ develop`
+- git branch --delete develop `ลบ branch ชื่อ develop`
+- git checkout <branch name, commot id>  `ย้ายการทำงานไปที่ Branch หรือ commit id ที่ระบุ`
+- $ git checkout -b test `สร้าง branch ชื่อ test และทำการสลับการทำงานมาที่ branch นี้ ก็ือ test นั้นเอง`
+- git checkout <branch name> <file name>    `เลือกแค่บางไฟล์จาก Branch อื่น เข้ามา Merge กับ Working Directory ที่กำลังทำการ` 55

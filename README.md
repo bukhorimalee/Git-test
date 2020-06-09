@@ -55,10 +55,11 @@ git push -u origin master `ส่งไฟล์`
 - git branch --all          `เช็ค กิ่ง repository`
 - git branch --list `เช็คว่ามี branch อะไรบ้าง
 - git branch develop        `สร้าง branch ชื่อ develop`
-- git branch --delete develop `ลบ branch ชื่อ develop`
+- git branch --delete develop , git branch -d develop `ลบ branch ชื่อ develop`
 - git checkout <branch name, commot id>  `ย้ายการทำงานไปที่ Branch หรือ commit id ที่ระบุ`
 - git checkout -b test `สร้าง branch ชื่อ test และทำการสลับการทำงานมาที่ branch นี้ ก็ือ test นั้นเอง`
 - git checkout <branch name> <file name>    `เลือกแค่บางไฟล์จาก Branch อื่น เข้ามา Merge กับ Working Directory ที่กำลังทำการ`
-- git push --set-upstream origin develop `ขึ้น Branch บนฐ้านข้อมูล
+- git push --set-upstream origin develop `git ขึ้น Branch บนฐ้านข้อมูล
 - git push -u origin develop `ขึ้น ไฟล์ Branch Develop บนฐ้านข้อมูล
-## Git Reset มี3แบบ
+## Git merge 
+- เป็นการรวมข้อมูล จาก branch ไป อีก branch เช่น เราต้องการ นำข้อมูลจาก develop ไปรวมกับ master

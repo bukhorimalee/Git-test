@@ -68,4 +68,4 @@ git push -u origin master `ส่งไฟล์`
 - เป็นการรวมข้อมูล จาก branch ไป อีก branch เช่น เราต้องการ นำข้อมูลจาก develop ไปรวมกับ master
 =======
 - git push -u origin develop `ขึ้น ไฟล์ Branch Develop บนฐ้านข้อมูล
->>>>>>> develop
+- git merge ชื่อ branch ที่จะเอาไว้รวม กับbranchที่เลือกไว้ในปัจจุบัน

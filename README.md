@@ -44,7 +44,6 @@ When `x = 3`, inline code ก็คิอ แทืก < code > ของ html�
 - git commit -m "title"-m "description เก็บข้อมูลขึ้น remote repro
 - git push หากต้องการเอาขึ้น remote repro
 - git pull ดึงข้อม฿ลจาก remote repro, dowload file
-- git commit -am ".."  `เพื่อที่จะ git add พร้อม git commit`
 ![content](https://3.bp.blogspot.com/-Wdqrzw1boBw/WbbHN3XFETI/AAAAAAAACV4/2r6we5RxnIMzXavPDr3FZvbM1sgZUrdBQCLcBGAs/s1600/git_138.jpg)
 ![git graph master](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTNLeFI8crFRcYUvqT47I-ky1yn0dY5xSvE30Bwe8XAkZ_S0Gdn&usqp=CAU)# การแตก Respository
 ## Git
@@ -69,3 +68,13 @@ git push -u origin master `ส่งไฟล์`
 =======
 - git push -u origin develop `ขึ้น ไฟล์ Branch Develop บนฐ้านข้อมูล
 - git merge ชื่อ branch ที่จะเอาไว้รวม กับbranchที่เลือกไว้ในปัจจุบัน
+- git log --oneline --decorate --graph --all `ดู merge ทั้งหมด `
+
+# Git command Trict
+- git commit -am ".."  `เพื่อที่จะ git add พร้อม git commit`
+- git commit -am “title” -m “description”
+- git checkout -b name- 
+- git branch -m old_name new_name `เปลียนชื่อเก่า ใหม่ `
+- git log --oneline --decorate --graph --all `ดู แผงผัง Branch `
+- git merge branch_name -m “description” ` การ Merge และ commit พร้อมกัน `
+- git merge branch_name --no--ff (no fast forward) ` เปิดปิด Merge `

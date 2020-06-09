@@ -1,3 +1,4 @@
+(feature-2)
 # Git-test-codecamp-6
 ## markdown
 # title h1
@@ -43,6 +44,7 @@ When `x = 3`, inline code ก็คิอ แทืก < code > ของ html�
 - git commit -m "title"-m "description เก็บข้อมูลขึ้น remote repro
 - git push หากต้องการเอาขึ้น remote repro
 - git pull ดึงข้อม฿ลจาก remote repro, dowload file
+- git commit -am ".."  `เพื่อที่จะ git add พร้อม git commit`
 ![content](https://3.bp.blogspot.com/-Wdqrzw1boBw/WbbHN3XFETI/AAAAAAAACV4/2r6we5RxnIMzXavPDr3FZvbM1sgZUrdBQCLcBGAs/s1600/git_138.jpg)
 ![git graph master](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTNLeFI8crFRcYUvqT47I-ky1yn0dY5xSvE30Bwe8XAkZ_S0Gdn&usqp=CAU)# การแตก Respository
 ## Git
@@ -60,6 +62,10 @@ git push -u origin master `ส่งไฟล์`
 - git checkout -b test `สร้าง branch ชื่อ test และทำการสลับการทำงานมาที่ branch นี้ ก็ือ test นั้นเอง`
 - git checkout <branch name> <file name>    `เลือกแค่บางไฟล์จาก Branch อื่น เข้ามา Merge กับ Working Directory ที่กำลังทำการ`
 - git push --set-upstream origin develop `git ขึ้น Branch บนฐ้านข้อมูล
+<<<<<<< HEAD
 - git push -u origin develop `ขึ้น ไฟล์ Branch Develop บนฐ้านข้อมูล
 ## Git merge 
 - เป็นการรวมข้อมูล จาก branch ไป อีก branch เช่น เราต้องการ นำข้อมูลจาก develop ไปรวมกับ master
+=======
+- git push -u origin develop `ขึ้น ไฟล์ Branch Develop บนฐ้านข้อมูล
+>>>>>>> develop

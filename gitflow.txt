@@ -1,0 +1,3 @@
+this is text for text git flow
+
+add text for commit in develop

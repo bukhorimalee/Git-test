@@ -1,25 +1,7 @@
 this is text for text git flow
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-add text for commit in develop
+i want to create something wrong in this line
 
-add text for line 5 commit develop
-=======
-add commit this for git branch feature-3
->>>>>>> 1065978... add commit in gitflow
-=======
-add commit this for git branch feature-3
+i try to make a conflict
 
-add text to add committ 2
->>>>>>> bd3f9f5... add new line 5
-=======
-add commit this for git branch feature-3
-
-add text to add committ 2
-
-add text to add commit 3
->>>>>>> refs/remotes/origin/feature-3
-
-i'm a student of codecame6
+this is code in line 7

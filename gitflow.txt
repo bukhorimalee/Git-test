@@ -21,3 +21,5 @@ add text to add committ 2
 
 add text to add commit 3
 >>>>>>> refs/remotes/origin/feature-3
+
+i'm a student of codecame6

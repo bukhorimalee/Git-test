@@ -1,0 +1,3 @@
+this is text for text git flow
+
+add commit this for git branch feature-3

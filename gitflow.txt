@@ -2,6 +2,7 @@ this is text for text git flow
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 add text for commit in develop
 
 add text for line 5 commit develop
@@ -13,3 +14,10 @@ add commit this for git branch feature-3
 
 add text to add committ 2
 >>>>>>> bd3f9f5... add new line 5
+=======
+add commit this for git branch feature-3
+
+add text to add committ 2
+
+add text to add commit 3
+>>>>>>> refs/remotes/origin/feature-3

@@ -90,7 +90,10 @@ rebase เป็นการย้ายข้อมูล จาก branch ห�
 8. ถ้าไม่มีให้ git add ได้เลย
 9. git rebase --continue
 10. git commit and push
+<<<<<<< HEAD
 - git rebase develop develop เอาข้อมูลจาก develop เข้าไปใน merge ที่เลือกในปัจจุบัน
 
 add text line 95 by feature-3
 
+=======
+>>>>>>> refs/remotes/origin/feature-3

@@ -78,3 +78,15 @@ git push -u origin master `ส่งไฟล์`
 - git log --oneline --decorate --graph --all `ดู แผงผัง Branch `
 - git merge branch_name -m “description” ` การ Merge และ commit พร้อมกัน `
 - git merge branch_name --no--ff (no fast forward) ` เปิดปิด Merge `
+# Git Rebase
+rebase เป็นการย้ายข้อมูล จาก branch หนึ่งมาต่ออีก branch 
+ ขั้นตอนการทำ rebase จาก dev to master
+1. update repo
+2. checkout master
+3. git pull
+4. git rebase dev
+6. ตรวจสอบ conflict
+7. ถ้ามีให้แก้ไข save แล้ว git add
+8. ถ้าไม่มีให้ git add ได้เลย
+9. git rebase --continue
+10. git commit and push

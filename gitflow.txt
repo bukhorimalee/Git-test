@@ -1,5 +1,9 @@
 this is text for text git flow
 
+<<<<<<< HEAD
 add text for commit in develop
 
 545465
+=======
+add commit this for git branch feature-3
+>>>>>>> 1065978... add commit in gitflow

@@ -95,5 +95,15 @@ rebase เป็นการย้ายข้อมูล จาก branch ห�
 
 add text line 95 by feature-3
 
+Step 1: Keep going git rebase --continue
+
+Step 2: fix CONFLICTS then git add .
+
+Back to step 1, now if it says no changes .. then run git rebase --skip then go back to step 1
+
+If you just want to quit rebase run git rebase --abort
+
+Once all changes are done run git commit -m "rebase complete" and you are done.
+
 =======
 >>>>>>> refs/remotes/origin/feature-3
